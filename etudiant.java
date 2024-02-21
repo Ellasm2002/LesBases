@@ -4,4 +4,6 @@ public class Etudiant{
     public String code;
     public int id;
     public int noteE;
+    public int age;
+    public int notes;
 }
