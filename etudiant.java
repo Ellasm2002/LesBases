@@ -6,4 +6,9 @@ public class Etudiant{
     public int noteE;
     public int age;
     public int notes;
+
+    public double calculerMoyenne() {
+        double moyenne = (double) (noteE + notes) / 2;
+        return moyenne;
+    }
 }
